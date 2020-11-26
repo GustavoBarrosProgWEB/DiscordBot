@@ -93,6 +93,7 @@ client.on('raw', async dados => {
     //     let usuario = client.guilds.cache.get('775852503589322782').members.cache.get(dados.d.user.id);
     //     console.log(`dados.d.user.tag: ${usuario.user.username}, status: ${dados.d.status}, id: ${dados.d.user.id}`);
 
+    
     // };
 });
 
