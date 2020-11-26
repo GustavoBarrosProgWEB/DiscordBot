@@ -91,4 +91,4 @@ client.on('message', (msg) => {<br>
 <code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}hora`) message.reply(`\n${frasesCmd.hora[Math.round(Math.random() * (tHoraJSON - 1) + 1)]} **${pegaTempo()[1]}** hora(s).`);</code><br><br>
 <code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}comandos`) message.reply(`\n${frasesCmd.comandos}`);</code><br><br>
 <code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}frase`) message.reply(`\n*${frasesDoDia[Math.round(Math.random() * (tFraseJSON - 1) + 1)]}*`);</code><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}salve`) message.reply(msgEmbed);</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}salve`) message.reply(msgEmbed);</code>
