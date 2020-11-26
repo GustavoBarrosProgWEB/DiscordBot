@@ -75,11 +75,11 @@ client.on('message', (msg) => {<br>
 
 - Captura de mensagem para hora, data, help e frasesDoDia no  arquivo JSON. Para pegar o tamanho do arquivo JSON utiliza-se a propriedade <em>lengh</em> da classe <em>Object</em>.
 
-<code>&nbsp;&nbsp;&nbsp;&nbsp;let tHoraJSON = Object.keys(frasesCmd.hora).length;
-&nbsp;&nbsp;&nbsp;&nbsp;let tDataJSON = Object.keys(frasesCmd.data).length;
-&nbsp;&nbsp;&nbsp;&nbsp;let tHelpJSON = Object.keys(frasesCmd.help).length;
+<code>&nbsp;&nbsp;&nbsp;&nbsp;let tHoraJSON = Object.keys(frasesCmd.hora).length;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let tDataJSON = Object.keys(frasesCmd.data).length;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let tHelpJSON = Object.keys(frasesCmd.help).length;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;let tFraseJSON = Object.keys(frasesDoDia).length;
-</code>
+</code><br>
 
 - Verifica o conteúdo digitado do usuário e replica com comando <em>message.reply</em> a mensagem de volta para o usuário no canal.
 
