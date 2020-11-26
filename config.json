@@ -1,0 +1,10 @@
+{
+    "login": {
+        "idServidor": "775852503589322782",
+        "idChannelAGerais": "754402908166160392",
+        "idChannelTESTE" : "775852503589322787"
+    },
+    "messagem": {
+        "prefix": "!"
+    }
+}

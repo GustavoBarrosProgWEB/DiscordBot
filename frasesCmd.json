@@ -1,0 +1,39 @@
+{
+    "comandos": "Os comandos disponíveis são: \n- !comandos :: Este nem preciso dizer... chegou até aqui.. Hehe, \n- !help :: É só um help, \n- !hora :: Exibe a hora atual., \n- !data :: Na sequencia, exibe a data atual., \n- !frase :: Para alegrar nossas vidas.",
+    "help": {
+        "1": "Qual o seu problema? Taí uma dica. #assuntos-gerais. Vai lá que a galera é da paz!",
+        "2": "Tomara que não seja complicado. Ou não?\nMas que tal o canal #assuntos-gerais.",
+        "3": "Vamos dá um Google? =) Brincadeira... Fala ai!",
+        "4": "Você sabia que a NASA já resolveu muitos dos seus problemas com uma complexa, mas eficiente ação: ligando e desligando. Reflita!",
+        "5": "Olá. Aqui é do SAC. Em que 'podemos estar lhe ajudando' Sr.? Coloca, sua dúvida no canal #assuntos-gerais. Obrigado.",
+        "6": "Esta parece ser uma dúvida, meio duvidosa. Melhor pedida é o canal #assuntos-gerais.",
+        "7": "Xiiiii. Essa eu não sei, mas a galera do canal #assuntos-gerais vai lhe ajudar.",
+        "8": "Simples. 2 + 2 = 5. Ops... melhor perguntar lá no canal #assuntos-gerais.",
+        "9": "Desisto. Vai lá no #assuntos-gerais",
+        "10": "Partiu canal #assuntos-gerais galera."
+    },
+    "hora": {
+        "1": "De acordo com Brasília, agora são",
+        "2": "Chronus sinaliza",
+        "3": "Mas qual significado da hora atual",
+        "4": "Mas o que significa o tempo ",
+        "5": "Tá quase na hora do almoço",
+        "6": "Tá quase na hora da janta. Vamos ver o temos para hoje às",
+        "7": "Hora de beber água",
+        "8": "Para combinar com esta equação diferencial, só um café agora",
+        "9": "Alguém ai falou em LOL às",
+        "10": "Queria uns biscoitos de byte, com cobertura giga e casquinha RJ45. Anotou o meu pedido? São"
+    },
+    "data": {
+        "1": "Esta data é especial, é seu dia",
+        "2": "'Ouviram do Ipiranga,'...\n'Oh, say, can you see, by the dawn's...' A Independência é hoje?...",
+        "3": "Lembro bem daquele dia. Tudo ótimo. Faz 10 dias daquele dia para hoje,",
+        "4": "**Dia Mundial dos BOT´s**. \nTenho direito ao meu dia de folga. Se não sabias, é hoje",
+        "5": "É um dia histórico. Todos confraternizando, neste dia de",
+        "6": "Vamos comemorar mais um lindo dia. Vamos, que vamos... ainda mais hoje",
+        "7": "Bem, como é meu aniversário, posso pedir. Quero paz, tranquilidade e acertar na **loteria dos BOT's**. Imagina, vou desenvolver 100 BOTas, só pra mim... Hoje é o dia",
+        "8": "Feriado não trabalho. Dia da consciência computacional",
+        "9": "Um dia super especial. Vou ser PAPAI... 5 BOTs... 5 Portas para alimentar, 5 Giga para consumir, =) Marquem esse dia",
+        "10": "'...**Dia Internacional da Felicidade**...' \nSorria, você está sendo monitorado."
+    }
+}
