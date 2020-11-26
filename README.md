@@ -83,9 +83,9 @@ client.on('message', (msg) => {<br>
 
 - Verifica o conteúdo digitado do usuário e replica com comando <em>message.reply</em> a mensagem de volta para o usuário no canal.
 
-<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}help`) message.reply(`\n${frasesCmd.help[Math.round(Math.random() * (tHelpJSON - 1) + 1)]}`);<br>
-&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}data`) message.reply(`\n${frasesCmd.data[Math.round(Math.random() * (tDataJSON - 1) + 1)]} **${pegaTempo()[0]}**. Aproveitem!`);<br>
-&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}hora`) message.reply(`\n${frasesCmd.hora[Math.round(Math.random() * (tHoraJSON - 1) + 1)]} **${pegaTempo()[1]}** hora(s).`);<br>
-&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}comandos`) message.reply(`\n${frasesCmd.comandos}`);<br>
-&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}frase`) message.reply(`\n*${frasesDoDia[Math.round(Math.random() * (tFraseJSON - 1) + 1)]}*`);<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}help`) message.reply(`\n${frasesCmd.help[Math.round(Math.random() * (tHelpJSON - 1) + 1)]}`);</code><br><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}data`) message.reply(`\n${frasesCmd.data[Math.round(Math.random() * (tDataJSON - 1) + 1)]} **${pegaTempo()[0]}**. Aproveitem!`);</code><br><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}hora`) message.reply(`\n${frasesCmd.hora[Math.round(Math.random() * (tHoraJSON - 1) + 1)]} **${pegaTempo()[1]}** hora(s).`);</code><br><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}comandos`) message.reply(`\n${frasesCmd.comandos}`);</code><br><br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}frase`) message.reply(`\n*${frasesDoDia[Math.round(Math.random() * (tFraseJSON - 1) + 1)]}*`);</code><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;if (message.content === `${config.messagem.prefix}salve`) message.reply(msgEmbed);</code>
