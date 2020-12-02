@@ -29,7 +29,8 @@ const msgEmbed = new Discord.MessageEmbed()
 // "https://cdn.discordapp.com/attachments/" + <id do canal> + "/" + <ID avatar> + "/" + "DiscordBOT.png"
 function pegaTempo() {
 
-    let today = new Date();
+    // Ajuste de fuso horário 
+    let today = new Date(new Date().setHours(new Date().getHours() - 3));
 
     let hh = String(today.getHours()).padStart(2, '0');
     let mm = String(today.getMinutes()).padStart(2, '0');
@@ -37,6 +38,7 @@ function pegaTempo() {
     let mes = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
     let yyyy = today.getFullYear();
 
+    // Template strings para exibir hora e data (20h30) 
     let data = `${dd}/${mes}/${yyyy}`;
     let hora = `${hh}h${mm}`;
 
@@ -95,7 +97,6 @@ client.on('raw', async dados => {
 
     // };
 });
-
 
 // client.on('presenceUpdate', (dadosUp) => {
     
