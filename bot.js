@@ -50,7 +50,7 @@ var contPoint = '';
 var cont = 0;
 var tempo;
 
-async function timeCount() {
+function timeCount() {
     contPoint = contPoint + '.';
     cont++;
     // Configura o texto abaixo do nome do BOT,= chamado atividade.
@@ -58,7 +58,7 @@ async function timeCount() {
     client.user.setActivity(`(${cont}) ${contPoint}`, { type: "STREAMING", url: "https://discord.js.org/" });
 
     tempo = setTimeout(timeCount, 5000);
-    if (cont == 1000) {
+    if (cont > 1000) {
         contPoint = '';
         cont = 0;
     }
@@ -108,6 +108,7 @@ client.on('raw', async dados => {
 client.on('message', (message) => {
 
     // Verifica se a messagem enviada foi de um BOT
+    if (message.channel._typing === "dm") return;
     if (!message.author.bot) {
 
         let tHoraJSON = Object.keys(frasesCmd.hora).length;
